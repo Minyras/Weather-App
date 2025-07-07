@@ -1,0 +1,35 @@
+.content {
+  color: white;
+  padding: 60px 120px 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+}
+.weatherInfo {
+  display: flex;
+  align-items: end;
+  gap: 30px;
+  h1 {
+    font-weight: normal;
+    font-size: 160px;
+    line-height: 0.8;
+  }
+  .weather {
+    display: flex;
+    gap: 10px;
+    align-items: end;
+  }
+  .cityTime {
+    h2 {
+      font-weight: 400;
+      font-size: 65px;
+    }
+  }
+  .condition {
+    text-align: center;
+    img {
+      margin-bottom: -15px;
+    }
+  }
+}
